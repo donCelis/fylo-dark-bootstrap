@@ -1,0 +1,104 @@
+:root{
+  --main-color: hsl(218, 28%, 13%);
+  --comp-color: hsl(219, 30%, 18%);
+  --third-color: hsl(176, 68%, 64%);
+  --four-color: hsl(216, 53%, 9%);
+  --linear-gradient: linear-gradient(90deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 100%);
+  --space: 110px;
+}
+*{
+  outline: 0 !important;
+}
+.home{
+  --image-home: url('../images/bg-curvy-desktop.svg');
+  background-color: var(--comp-color);
+  background-image: var(--image-home);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  padding-bottom: 10rem;
+}
+.logo{
+  width: 130px;
+}
+.btnHome{
+  color: white;
+  background: var(--linear-gradient);
+  border: 0;
+  padding: 1rem 4rem;
+  border-radius: 50px;
+}
+.icon-menu{
+  color: white;
+  font-size: 1.6em;
+}
+.services{
+  background: var(--main-color);
+}
+.feature{
+  background: var(--main-color);
+}
+.feature-link{
+  color: var(--third-color);
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 5px;
+}
+.feature-link:hover{
+  color: var(--third-color);
+  text-decoration: none;
+}
+.testimonials{
+  background: var(--main-color);
+}
+.write{
+  background: var(--comp-color);
+}
+.write picture{
+  width: 40px;
+}
+.write h6{
+  font-size: 0.8em;
+  margin-bottom: 3px;
+}
+.write .d-flex p{
+  font-size: 0.6em;
+  margin-bottom: 0;
+}
+.form-component{
+  background: var(--main-color);
+}
+.form-component .container{
+  width: 70%;
+}
+.bg-form{
+  background: var(--comp-color);
+  position: relative;
+  margin-bottom: -110px;
+}
+.call-to-action input{
+  padding: 24px;
+}
+.call-to-action button{
+  padding: 12px;
+  background: var(--linear-gradient);
+}
+.end-page{
+  background: var(--four-color);
+}
+.end-page .container{
+  margin-top: var(--space);
+}
+.icon-socials{
+  font-size: 2em;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px){
+  .home{
+    --image-home: url('../images/bg-curvy-mobile.svg');
+  }
+}
+@media only screen and (max-width: 576px){
+  .form-component .container{
+    width: 90%;
+  }
+}
