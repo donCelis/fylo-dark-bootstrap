@@ -91,7 +91,7 @@
 .end-page .container{
   margin-top: var(--space);
 }
-.icon-socials{
+.icon-socials i{
   font-size: 2em;
   cursor: pointer;
 }
