@@ -21,6 +21,9 @@
 .logo{
   width: 130px;
 }
+.nav-link:hover{
+  border-bottom: 1px solid white;
+}
 .btnHome{
   color: white;
   background: var(--linear-gradient);
