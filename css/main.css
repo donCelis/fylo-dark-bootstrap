@@ -53,6 +53,9 @@
 .testimonials{
   background: var(--main-color);
 }
+.quotes{
+  top: -35px;
+}
 .write{
   background: var(--comp-color);
 }
@@ -103,5 +106,8 @@
 @media only screen and (max-width: 576px){
   .form-component .container{
     width: 90%;
+  }
+  .quotes{
+    left: 10px;
   }
 }
